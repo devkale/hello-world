@@ -7,3 +7,4 @@ again tring to close issue
 beta 1.8.7
 stable 1.8.7
 beta 1.8.8
+1.8.8
