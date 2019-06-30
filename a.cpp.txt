@@ -52,13 +52,13 @@ int main()
         {
             if(tempd>d)
             {
-                cout<<padded(tempd)<<":"<<padded(i);
+                cout<<padded(tempd)<<":"<<padded(i)<<endl;
                 return 0;
             }
         }
         else
         {
-            cout<<padded(tempd)<<":"<<padded(i);
+            cout<<padded(tempd)<<":"<<padded(i)<<endl;
             return 0;
         }
     }
