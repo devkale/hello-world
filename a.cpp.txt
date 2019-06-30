@@ -1,0 +1,28 @@
+
+int main( )
+{
+	vector<long long int> myvect;
+	myvect.push_back(3);
+	for(int i = 0; i<36;i++)
+	{
+		int size = myvect.size();
+		myvect.push_back(myvect[size-1]*3+myvect[size-1]);
+	}
+	
+	for(int t= 0 ;t<T;t+)
+	{
+		int cin>>n;
+		
+		int ans;
+		for(int i = 0; i<myvect.size();i++)
+		{
+			if(n<=myvect[i])
+			{
+				ans = i;
+				break;
+			}
+		}
+		
+		cout<<(ans+1);
+	}
+}
