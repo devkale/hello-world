@@ -2,7 +2,7 @@
 int main( )
 {
 	int m; int d;
-	for(int i= m;i<30;i++)
+	for(int i= m;i=<30;i++)
 	{
 		int tempd = reverse (m);
 		if(d>60)
@@ -16,8 +16,10 @@ int main( )
 				print answer return;
 			}
 		}
-		
-		print answer return;
+		else
+		{
+			print answer return;
+		}
 	}
 	
 	for(int i = 1; i<m;i++)
@@ -30,3 +32,23 @@ int main( )
 		print answerl; retrun ;
 	}
 }
+
+
+Struct A{
+	int month;
+	int day;
+	A(month , day){}
+}
+
+vector<A> myvect { 
+	{1,10}, 
+	{2,20},
+	{3,30},
+	{4,40},
+	{5,50},
+	{6,60},
+	{10, 01 },
+	.
+	.
+	.}
+	
